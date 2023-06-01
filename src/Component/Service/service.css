@@ -1,0 +1,43 @@
+.four-box{
+    width: 100%;
+    height: auto;
+    padding: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+}
+.four-box .four{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.four-box .four .box{
+    width: 300px;
+    height: 100%;
+    padding: 0px 20px;
+}
+.four-box .four .box span{
+    letter-spacing: 1px;
+}
+.four-box .four .box .logo{
+    width: 100%;
+    height: 100px;
+    padding: 20px 0px;
+}
+.four-box .four .box .logo .icons{
+    width: 50px;
+    height: 50px;
+    padding: 15px;
+    border-radius: 50%;
+    margin-left: 100px;
+    background-color: rgb(205, 208, 213);
+}
+.four-box .four .box .logo .icons i{
+    font-size: 20px;
+}
+.four-box .four .box .h3{
+    text-align: center;
+    margin-bottom: 20px;
+}

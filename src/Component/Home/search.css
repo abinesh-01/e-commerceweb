@@ -1,0 +1,124 @@
+.search-box{
+    width: 100%;
+    min-width: 400px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 0px 70px;
+}
+.search-box .logo{
+    font-size: 30px;
+    font-weight: bold;
+}
+.search-box .search{
+    width: 800px;
+    min-width: 400px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.search-box .search-container{
+    width: 100%;
+    padding: 0px 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+::placeholder{
+    font-size: 16px;
+}
+.search-box .search input{
+    border: none;
+    outline: none;
+    width: 450px;
+    background-color: transparent;
+}
+.search-box .items{
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search-box .items .shop {
+    position: relative;
+   }
+.search-box .items .shop span{
+    position: absolute;
+    top: -10px;
+    right: 0px;
+    padding: 0px 5px;
+    border-radius: 50%;
+    font-size: 16px;
+    color: #fff;
+    background-color: red;
+    z-index: 0;
+}
+.search-box .items .contact{
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 50%;
+    display: grid;
+    place-content: center;
+    background-color: aliceblue;
+}
+.search-box .items .contact:hover{
+    background-color: rgb(238, 151, 166);
+}
+.search-box .items .shop{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: grid;
+    place-content: center;
+    background-color: aliceblue;
+}
+.search-box .items .shop button{
+    border: none;
+    outline: none;
+    font-size: 18px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+   
+}
+.search-box .items .shop button:hover{
+    background-color: rgb(238, 151, 166);
+}
+.card{
+    width: 400px;
+    height: 650px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: 999;
+    background-color: red;
+}
+.card button{
+    padding: 5px;
+    font-size: 18px;
+    position: relative;
+    right: -378px;
+}
+
+@media (max-width:768px) {
+
+    .search-box{
+        width: 100%;
+        height: 50px;
+        padding: 0px 10px;
+    }
+    
+    
+    
+}
+@media (max-width:992px) {
+
+    .search-box .search{
+        display: none;
+    }
+}

@@ -1,0 +1,28 @@
+.category{
+    width: 300px;
+    height: 450px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px 5px 0px 45px;
+    cursor: pointer;
+}
+.category .content .cate-icon{
+    text-align: start;
+    font-size: 20px;
+}
+.category .cate-name{
+    font-size: 18px;
+    margin-left: 10px;
+}
+.category .content{
+    height: 30px;
+    padding: 18px 0px;
+}
+.category .content:hover{
+      text-decoration: underline;
+}
+@media (max-width:992px) {
+    .category{
+        display: none;
+    }
+    
+}

@@ -1,0 +1,95 @@
+.flash-deal{
+    width: 100%;
+    height: 380px;
+    padding: 0px 40px;
+    display: flex!important;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aquamarine;
+}
+.flash .fheading{
+    padding: 0px 50px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+}
+.flash .fa-bolt{
+    color: rgb(239, 27, 62);
+    margin-right: 10px;
+}
+.flash-deal .flash{
+    display: block;
+}
+.flash-deal i{
+    color: rgb(239, 46, 78);
+    margin-right: 8px;
+}
+.flash-deal span{
+    font-size: 18px;
+    font-weight: bold;
+}
+.flash-card{
+    width: 100%;
+    height: 320px;
+    margin: 23px 0px;
+   
+}
+.flash-card .another-div{
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap!important;
+    background-color: #fff;
+}
+.flash-card .box{
+    width: 250px;
+    height: 100%;
+    padding: 10px;
+    position: relative;
+}
+.flash-card .box .heart{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    display: none;
+}
+.flash-card .box:hover .heart{
+    display: inline-block;
+}
+.flash-card .box .heart h3{
+    margin: 0px 3px;
+}
+.flash-card .box .images{
+    width: 100%;
+    height: 200px;
+    margin: 5px 0px;
+    position: relative;
+    overflow: hidden;
+}
+.flash-card .box .images img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition: 0.5s;
+}
+.flash-card .box .images img:hover{
+    transform: scale(1.3);
+}
+.flash-card .box .stars{
+    margin: 5px 0px;
+}
+.flash-card .box .content{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(227, 19, 54);
+}
+.flash-card .box .stars .fa-star{
+    color: yellow!important;
+}
+@media (max-width:992px) {
+    .flash-card .another-div .box {
+        max-width: 600px;
+        display: block;
+
+    }
+    
+}
